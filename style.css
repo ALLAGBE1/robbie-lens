@@ -1,0 +1,46 @@
+a, p{
+    font-family: Arial, Helvetica, sans-serif;
+    color:brown
+}
+span{
+    color:#A5B4FC
+}
+#farmer{
+    color: rgb(0, 255, 85);
+}  
+h1{
+    font-size: 3.5em; 
+    color: #A5B4FC;
+    font-family: "Montserrat", sans-serif;   
+}
+p{
+    font-size: 1.1em; 
+    font-family: "Manrope", sans-serif;
+    color: #F9F8FF;   
+}
+ul{
+  font-size: 1em;  
+  font-family: "Manrope", sans-serif;
+  color: #F9F8FF;
+}
+a{
+  text-decoration: none;
+  font-size: 1em;  
+  font-family: "Manrope", sans-serif;
+  color: #242424;
+}
+.anciens{
+    text-decoration: line-through;
+}
+.header, .footer{
+   background-color: white; 
+}
+body{
+    background-color: #1F2039;
+}
+h2{
+    color: #F9F8FF;
+}
+.degrade{
+    background: linear-gradient(19deg, #8E86B5, #ACAEED);
+}
