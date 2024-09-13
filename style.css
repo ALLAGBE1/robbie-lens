@@ -23,12 +23,15 @@ ul{
   font-family: "Manrope", sans-serif;
   color: #F9F8FF;
 }
+a:hover{
+  text-decoration: underline;
+} 
 a{
-  text-decoration: none;
-  font-size: 1em;  
-  font-family: "Manrope", sans-serif;
-  color: #242424;
-}
+    text-decoration: none;
+    font-size: 1em;  
+    font-family: "Manrope", sans-serif;
+    color: #242424;
+  }
 .anciens{
     text-decoration: line-through;
 }
@@ -42,10 +45,17 @@ h2{
     color: #F9F8FF;
 }
 .degrade{
-    background: linear-gradient(19deg, #8E86B5, #ACAEED);
+    background: linear-gradient(19deg, #806484, #87b2ba);
     border-radius: 50px;
 }
 .border{
     border-right: 1px #8e86b5 double;
     border-bottom: 1px  #8e86b5 dashed;
+}
+.degrade:hover{
+   text-decoration: none;
+   background:  linear-gradient(#696484, #8788BA)
+}
+.icone:hover{
+    opacity: 0.5;
 }
