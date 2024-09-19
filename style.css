@@ -1,61 +1,63 @@
-a, p{
-    font-family: Arial, Helvetica, sans-serif;
-    color:brown
+a,
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: brown;
 }
-span{
-    color:#A5B4FC
+span {
+  color: #a5b4fc;
 }
-#farmer{
-    color: rgb(0, 255, 85);
-}  
-h1{
-    font-size: 3.5em; 
-    color: #A5B4FC;
-    font-family: "Montserrat", sans-serif;   
+#farmer {
+  color: rgb(0, 255, 85);
 }
-p{
-    font-size: 1.1em; 
-    font-family: "Manrope", sans-serif;
-    color: #F9F8FF;   
+h1 {
+  font-size: 3.5em;
+  color: #a5b4fc;
+  font-family: "Montserrat", sans-serif;
 }
-ul{
-  font-size: 1em;  
+p {
+  font-size: 1.1em;
   font-family: "Manrope", sans-serif;
-  color: #F9F8FF;
+  color: #f9f8ff;
 }
-a:hover{
+ul {
+  font-size: 1em;
+  font-family: "Manrope", sans-serif;
+  color: #f9f8ff;
+}
+a:hover {
   text-decoration: underline;
-} 
-a{
-    text-decoration: none;
-    font-size: 1em;  
-    font-family: "Manrope", sans-serif;
-    color: #242424;
-  }
-.anciens{
-    text-decoration: line-through;
 }
-.header, .footer{
-   background-color: white; 
+a {
+  text-decoration: none;
+  font-size: 1em;
+  font-family: "Manrope", sans-serif;
+  color: #242424;
 }
-body{
-    background-color: #1F2039;
+.anciens {
+  text-decoration: line-through;
 }
-h2{
-    color: #F9F8FF;
+header,
+footer {
+  background-color: white;
 }
-.degrade{
-    background: linear-gradient(19deg, #806484, #87b2ba);
-    border-radius: 50px;
+body {
+  background-color: #1f2039;
 }
-.border{
-    border-right: 1px #8e86b5 double;
-    border-bottom: 1px  #8e86b5 dashed;
+h2 {
+  color: #f9f8ff;
 }
-.degrade:hover{
-   text-decoration: none;
-   background:  linear-gradient(#696484, #8788BA)
+.degrade {
+  background: linear-gradient(19deg, #806484, #87b2ba);
+  border-radius: 50px;
 }
-.icone:hover{
-    opacity: 0.5;
+.border {
+  border-right: 1px #8e86b5 double;
+  border-bottom: 1px #8e86b5 dashed;
+}
+.degrade:hover {
+  text-decoration: none;
+  background: linear-gradient(#696484, #8788ba);
+}
+.icone:hover {
+  opacity: 0.5;
 }
