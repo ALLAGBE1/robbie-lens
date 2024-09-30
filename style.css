@@ -39,6 +39,10 @@ a {
 header,
 footer {
   background-color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 body {
   background-color: #1f2039;
@@ -53,6 +57,7 @@ h2 {
 .border {
   border-right: 1px #8e86b5 double;
   border-bottom: 1px #8e86b5 dashed;
+  padding: 50px;
 }
 .degrade:hover {
   text-decoration: none;
@@ -60,4 +65,14 @@ h2 {
 }
 .icone:hover {
   opacity: 0.5;
+}
+section{
+  padding: 80px;
+}
+main{
+  margin:  auto;
+  width: 80% ;
+}
+.aerer1, .aerer2{
+  margin-top: 40px;
 }
