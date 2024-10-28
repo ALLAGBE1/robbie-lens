@@ -68,6 +68,7 @@ h2 {
 }
 section{
   padding: 80px;
+  display: flex;
 }
 main{
   margin:  auto;
@@ -75,4 +76,35 @@ main{
 }
 .aerer1, .aerer2{
   margin-top: 40px;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+}
+.grrr{
+  /* display: flex; */
+  justify-content: left;
+  /* align-items: flex-start; */
+  background-color: green;
+}
+.hohoha{
+  /* display: flex; */
+  justify-content: right;
+  background-color: red;
+}
+.range{
+  display: flex;
+}
+.range1{
+  /* align-items: flex-start;
+  flex-direction: column; */
+  justify-content: left;
+}
+
+.range2{
+  /* align-items: flex-end;
+  flex-direction: column; */
+  justify-content: right;
+
 }
