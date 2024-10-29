@@ -66,10 +66,9 @@ h2 {
 .icone:hover {
   opacity: 0.5;
 }
-section{
+/* section{
   padding: 80px;
-  display: flex;
-}
+} */
 main{
   margin:  auto;
   width: 80% ;
@@ -91,20 +90,15 @@ nav{
 .hohoha{
   /* display: flex; */
   justify-content: right;
-  background-color: red;
 }
 .range{
   display: flex;
+  flex-direction: column;
+  display: grid;
+  gap: 16px;
 }
 .range1{
-  /* align-items: flex-start;
-  flex-direction: column; */
-  justify-content: left;
-}
-
-.range2{
-  /* align-items: flex-end;
-  flex-direction: column; */
-  justify-content: right;
-
+   gap: 20px;
+  justify-content: space-between;
+  flex-direction: row ;
 }
